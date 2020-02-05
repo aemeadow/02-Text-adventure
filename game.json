@@ -1,0 +1,232 @@
+{
+	"START": {
+		"name": "",
+		"desc": " You awaken on a stone dias. The sun burns high above you as puffs of clouds race by. When you stand, you can see the green grass overtaking the edges of the stone. In FRONT of you there is a shining city of glass towers in the distance.BEHIND you is a thick copse of trees with a peek of strange blue light.",
+		"exits": [{
+			"exit": "FRONT",
+			"target": "FRONT1"
+		}, {
+			"exit": "BEHIND",
+			"target": "BEHIND1"
+	
+		}]
+	}, "FRONT1": {
+		"name": "",
+		"desc": "You make your way closer to the city, you begin to hear a single tone humming beneath the earth, and as you walk, the sky spins with your paces. When you pause, so too does the rotation of the sun. The world holds still. Then you walk once more and the sun begins to move again. In FRONT of you the city grows ever nearer.To your RIGHT a path branches off toward a bog.",
+		"exits": [{
+			"exit": "FRONT",
+			"target": "FRONT2"
+		}, {
+			"exit": "RIGHT",
+			"target": "RIGHT1"
+	
+		}]
+	}, "BEHIND1": {
+		"name": "",
+		"desc": "You turn to face the trees. They speak of something old and dangerous, in ancient tongues you cannot explain. You cannot hear birds. You think it must be strange, thinking of the absence of birds, but then a moment more and you forget what birds ever were.  FRONT of you is a small gap between the trees with a strange light coming from within.To your LEFT there is a door inlaid in a tree.",
+		"exits": [{
+			"exit": "FRONT",
+			"target": "FRONT3"
+		}, {
+			"exit": "LEFT",
+			"target": "LEFT1"
+	
+		}]
+	}, "FRONT2": {
+		"name": "",
+		"desc": "You approach the gates of the city, but they open in time with your footsteps, as if you were expected. Inside the city, indistinct figures in dark hooded robes pass by. They're rushing without destination or origin, simply busy. A single low note echoes through the city, unwaveringly steady. It grows louder as you move closer to the center of it all. Part of you wants to SPEAK and ask what's going on, but another part wants to move closer to the CENTER.",
+		"exits": [{
+			"exit": "SPEAK",
+			"target": "SPEAK1"
+		}, {
+			"exit": "CENTER",
+			"target": "CENTER1"
+	
+		}]
+	}, "RIGHT1": {
+		"name": "",
+		"desc": "The bog smells like life and you begin to hear the rumble of frogs as you draw near. Their eyes follow you as you approach the hut in the distance. When you look behind you, every frog stops to stare, but when you turn back to face the hut, you can hear the hops. In FRONT of you is a hut sitting on stilts.BEHIND you lay the frogs in mass.",
+		"exits": [{
+			"exit": "FRONT",
+			"target": "FRONT4"
+		}, {
+			"exit": "BEHIND",
+			"target": "BEHIND2"
+	
+		}]
+	}, "FRONT3": {
+		"name": "",
+		"desc": "You can just barely squeeze through the gap and find yourself in a small room. The trees have grown together trunk to trunk and the branches form a ceiling above you. In the center of the room rests a birdbath with clear and reflective water. On the rim of the birdbath is a stone bird with a gem in its mouth. Part of you wants to LOOK into the water, but another part of you wants to TAKE the gem.",
+		"exits": [{
+			"exit": "LOOK",
+			"target": "LOOK1"
+		}, {
+			"exit": "TAKE",
+			"target": "TAKE1"
+	
+		}]
+	}, "LEFT1": {
+		"name": "",
+		"desc": "The door looks ornate, delicately carved and stained a deep red color. The handle is burnished brass and curling in an S shape. There's also a matching brass knocker in the shape of a scowling face holding a ring. The whole thing hums very quietly from a noise beyond the door. Part of you wants to OPEN the door, but part of you wants to KNOCK first.",
+		"exits": [{
+			"exit": "OPEN",
+			"target": "OPEN1"
+		}, {
+			"exit": "KNOCK",
+			"target": "KNOCK1"
+	
+		}]
+	}, "SPEAK1": {
+		"name": "",
+		"desc": "As you open your mouth to speak, the monotone noise fills your throat instead. The figures buffet you closer to the center, where you are pushed against the edge of a half wall. You look down, inside is a deep and wide well, with a giant beating heart inside. Do you JUMP into the well ? Ortry and SPEAK again ? ",
+		"exits" : [{
+			"exit": "JUMP",
+			"target": "JUMP1"
+		}, {
+			"exit": "SPEAK",
+			"target": "SPEAK2"
+	
+		}]
+	}, "CENTER1": {
+		"name": "",
+		"desc": "You are pushed to an open space, and a ring of people gathered around a small raised stage. On the stage are a few instruments played by other indistinct people, something with strings, something with cold metal and ringing sounds, and something tapping, all of them in the same perfect monotone as the rest of the world. At the front of the stage is another figure providing vocals, also dressed in the black but differently, loosely in interesting drapes.The top half of his face is covered with a silver mask without eyeholes and his dark hair sweeps to his shoulders in a more elegant echo of the hoods of the figures.The red of his lips are the only color in the whole world while he sings in a language you 've never heard of. Part of you really wants to APPROACH him, but another part of you just wants to LISTEN for a bit longer.",
+		"exits": [{
+			"exit": "APPROACH",
+			"target": "APPROACH1"
+		}, {
+			"exit": "LISTEN",
+			"target": "LISTEN1"
+	
+		}]
+	}, "FRONT4": {
+		"name": "",
+		"desc": "The hut on stilts seems to move as you grow closer, but you decide it must be just a trick of the light. That is, until the stilts become taller, and stairs unfold from the porch. The front door creaks open and the shutters throw themselves open as well. You look down, and your feet are in the water, and it is rising. Do you WALK into the water more ? Or CLIMB up the stairs ? ",
+		"exits" : [{
+			"exit": "WALK",
+			"target": "WALK1"
+		}, {
+			"exit": "CLIMB",
+			"target": "CLIMB1"
+	
+		}]
+	}, "BEHIND2": {
+		"name": "",
+		"desc": "The frogs chirp at you angrily and slime toward your toes. You back up away from the oncoming advance of fifty frogs, and fall down a small valley you had not noticed before. You land in a beautiful clear stream at the bottom after a fun roll. To your RIGHT runs the stream toward the sound of bells and hollow stones.To your LEFT runs the stream toward the setting sun and the outline of distant figures.",
+		"exits": [{
+			"exit": "RIGHT",
+			"target": "RIGHT2"
+		}, {
+			"exit": "LEFT",
+			"target": "LEFT2"
+	
+		}]
+	}, "LOOK1": {
+		"name": "",
+		"desc": "When you look into the shallow water, a skeleton looks back at you. It rattles as you turn your head. You realize it's your own reflection, but not your face. You touch the skin of your face with a careful hand. It feels dry. You are afraid. You can almost make out a shape in the water, below the reflection. A sound interrupts your fear. The back wall of the tree room falls and there's a tunnel made of hedges. Do you go FORWARD into the tunnel ? Or LOOK back at the water again ? ",
+		"exits" : [{
+			"exit": "FORWARD",
+			"target": "FORWARD1"
+		}, {
+			"exit": "LOOK",
+			"target": "LOOK2"
+	
+		}]
+	}, "TAKE1": {
+		"name": "",
+		"desc": "You take the gem from the stone bird's mouth, but as soon as you pocket it, the bird begins to sing. It's a beautifully mournful song, and you begin to cry. It's simply too much, you have to put back the gem, you cannot bear to hear much more. When you put it back, two doors appear.A blue one to the RIGHT side of the room, and a green one on the LEFT.",
+		"exits": [{
+			"exit": "RIGHT",
+			"target": "RIGHT3"
+		}, {
+			"exit": "LEFT",
+			"target": "LEFT3"
+	
+		}]
+	}, "OPEN1": {
+		"name": "",
+		"desc": "When you open the door, a beautiful garden scene unlike the very forest which you stand in appears. When you step through, the door closes behind you as if it was never there. Endless hills of flowers and foliage stand in its place. Before you are two ornamented gates set into low garden walls.The wrought IRON one curls wickedly and spindly, and has a heavy lock with a key seated in it.The SILVER gate has solid edges and no lock, but a simple pretty clasp at the center.",
+		"exits": [{
+			"exit": "IRON",
+			"target": "IRON1"
+		}, {
+			"exit": "SILVER",
+			"target": "SILVER1"
+	
+		}]
+	}, "KNOCK1": {
+		"name": "",
+		"desc": "When you raise your hand to the knocker, the scowling face blinks at you owlishly before making a noise against the ring of the knocker. The floor falls beneath you, and you hear what you now recognize as laughter as you fall down down down. You land in an indistinct room with two flickering lights somewhere in the distance.The ORANGE light seems warm and nice, like a comfortable fireplace.The BLUE light makes you scared yet excited, like it promises an adventure.",
+		"exits": [{
+			"exit": "ORANGE",
+			"target": "ORANGE1"
+		}, {
+			"exit": "BLUE",
+			"target": "BLUE1"
+	
+		}]
+	}, "JUMP1": {
+		"name": "",
+		"desc": "You land on a platform of glass over the heart. It fractures under your feet. You notice a tunnel built into the side of the well. But as you turn to walk towards it, the beating of the giant heart fills your ears instead."
+	
+	}, "SPEAK2": {
+		"name": "",
+		"desc": "The figures won't let you speak. They crowd you against the wall. They push you over the side and you plummet toward the heart. Just before you reach the surface, your vision fades out."
+	
+	}, "APPROACH1": {
+		"name": "",
+		"desc": "The people bustle by, and you wonder why none of them stop to listen to the music. You think the man on stage is the most interesting thing you've ever in this world where nothing makes sense. It feels like you're under a spell. You wait until after the performance is done before approaching him. 'Who are you?' You ask, and he responds. 'I am the Watcher. I am here to be real in a world where nothing is at all.' It 's said in the same sorrowful flowing tone as the singing was before. 'Not even me?' You wonder aloud, and immediately wished you hadn't. 'No, you were never real in the first place. I will see you again.'"
+	
+	}, "LISTEN1": {
+		"name": "",
+		"desc": "You begin to move without control, possessed by the song. You cannot see his eyes, but you can feel his gaze. The song is pouring out like water, flowing around long notes. You feel ensorcelled. You fall forward without meaning, and he watches you fall. Your vision fades."
+	
+	}, "WALK1": {
+		"name": "",
+		"desc": "You see reflections of yourself in the water, of all the times you've died in this place. They have your face, but hollow and vacant. You think you'll join them soon enough. Water fills your ears. There are no fish here, only the bodies."
+	
+	}, "CLIMB1": {
+		"name": "",
+		"desc": "You climb into the hut, and a wall of potions faces you. One in the middle seems to call for you. It's a purple phial, and it's downed quickly. Your vision fades."
+	
+	}, "RIGHT2": {
+		"name": "",
+		"desc": "The bells grow louder as you walk more down the river. The stones crunch beneath your feet. The bells keep getting louder even as your feet sink into the sand of the riverbed. The scenery around you passes as if you're walking, but you can't seem to move your feet. The background scrolls by even faster, until you lose track. And your eyes slip shut."
+	
+	}, "LEFT2": {
+		"name": "",
+		"desc": "In the distance are wavering outlines of cloaked figures, shadowed by the setting sun. But as you walk closer, the figures never look any closer to you. You take another step. The figures waver more. You're so distracted by the figures, you don't notice the fall until it's too late."
+	
+	}, "FORWARD1": {
+		"name": "",
+		"desc": "You step out onto a balcony from the city at night. It's overlooking a grand party, with soft lighting from the ground below you. A man in a silvery mask comes to stand beside you and hands you a champagne flute. He simply says 'Nice to see you again,' as you both drink. The champagne was poisoned. "
+	
+	}, "LOOK2": {
+		"name": "",
+		"desc": "Glass pebbles glow beneath the reflection of the skull. You reach for them, but instead your hand hits the very skull that's reflected there, now pulling it out of the birdbath. Your empty eye sockets stare back. You no longer feel your skull in your head. It's unsettling. A voice sends you off. 'Very sorry about this.'"
+	
+	}, "RIGHT3": {
+		"name": "",
+		"desc": "You open the door to step out on the back of a giant bird, you are small, and the feathers fit in your grip. A small jeweled beetle is beside you. It blinks it's little eyes at you, before the bird flips, and you start to fall."
+	
+	}, "LEFT3": {
+		"name": "",
+		"desc": "You step out of the door onto a green lily pad. A large frog blinks back at you. It's only large because you are so small. The frog opens its large and terrible mouth. You are swallowed whole."
+	
+	}, "IRON1": {
+		"name": "",
+		"desc": "When you touch the iron gate, it burns your fingers. The key itself does not burn you. Spiders crawl at your feet when you step through. They climb on the backs of each other and form a figure. A human face appears, and the rest of the figure appears with a robe that spills out from the face. The figure hugs you, and your eyes slip shut."
+	
+	}, "SILVER1": {
+		"name": "",
+		"desc": "The scene transforms around you as you step through the gate. You are behind a counter. A hundred figures you cannot quite make out pronounce you guilty. One steps forward. He says he means no harm. He hands you a knife. You look down toward the gilded handle. You make a choice."
+	
+	}, "ORANGE1": {
+		"name": "",
+		"desc": "You start feeling lethargic as you walk closer and closer toward the orange light. As you keep searching for the light, your limbs grow heavier. There's tendrils creeping around your ankles, pulling you into the ground. You try and fight it, but it manages to pull you down."
+	
+	}, "BLUE1": {
+		"name": "",
+		"desc": "The blue light turns out to be a crystal ball.You look into the glassy surface.You see hooded figures pushing back their hoods.They have your face.They look back at you through the glass.You can feel the weight of their gaze. Your gaze. It makes your skin crawl. You feel like you 'll see them again. You turn at a sound, and forget why you're here."
+	
+	}
+}
